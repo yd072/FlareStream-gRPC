@@ -29,7 +29,7 @@
 - **伪装域名**：你的域名
 - **路径 (ServiceName)**: 
   - 直连模式：`/` (或任意字符)
-  - ProxyIP 模式：`/?ip=你的优选IP:端口` (Worker 会在直连失败时自动使用该 IP 降级)
+  - ProxyIP 模式：`/?ip=你的ProxyIP:端口` (Worker 会在直连失败时自动使用该 IP 降级)
 - **传输安全**：tls
 - **SNI**：你的域名
 - **ALPN**：填写 h2 (非常重要，gRPC 强依赖 HTTP/2)
