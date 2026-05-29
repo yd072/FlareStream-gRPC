@@ -1,6 +1,6 @@
 # FlareStream-gRPC 🚀
 
-这是一个专为 Cloudflare Workers 编写的 VLESS over gRPC 代理节点。
+这是一个专为 Cloudflare Workers 编写的 VLESS over gRPC 转输方式。
 
 ## 🌟 核心特性
 
